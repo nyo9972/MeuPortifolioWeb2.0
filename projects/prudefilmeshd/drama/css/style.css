@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(https://images4.alphacoders.com/741/thumb-1920-74174.png) ;
+    opacity : 10;
+    background-repeat: repeat;
+    background-size: 112%;
+    
+    
+}
+
+
+.logo1 {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    top: 15%;
+    left: 30%;
+    text-shadow: 2px;
+}
+
+nav {
+    float: inline-end;
+    width: 14.8%;
+    height: auto;
+    font-family: comic;
+    right: 5px;
+}
+
+.item label {
+    display: block;
+    padding: 5%;
+    background-color: #434343;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: solid 2px #fffefe;
+}
+
+.iniciob {
+    width: 15%;
+    height: 15%;
+    background-color: #434343;
+    font-size: 12%;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: solid 2px #fffefe;
+}
+
+
+
+.item label:hover {
+    background-color: #f2673a;
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+}
+.item ul {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4s linear;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.item ul li a {
+    width: 20%px;
+    height: 5%px;
+    padding: 5%;
+    display: block;
+    text-decoration: none;
+    background-color: #6279df;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.item input:checked~ul {
+    height: auto;
+    max-height: 1000px;
+    transform: all;
+}
+.item input {
+    display: none;
+}
+.item ul li a:hover {
+    background-color: #9cf;
+}
+.targe {
+    color: rgb(0, 0, 0);
+    background-color: #43434344;
+    width: 14.8%;
+    height: 108%;
+    position: absolute;
+    z-index: -1;
+    border-right: 3px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+
+
+   
